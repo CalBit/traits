@@ -1,0 +1,25 @@
+{
+  "criteria": {
+    "use_ability": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:rotten_flesh",
+          "components": {
+            "minecraft:custom_data": {
+              "ability": true
+            }
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "use_ability"
+    ]
+  ],
+  "rewards": {
+    "function": "traits:zombie/summon"
+  }
+}

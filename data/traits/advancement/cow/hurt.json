@@ -1,0 +1,22 @@
+{
+  "criteria": {
+    "hurt": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "source_entity": {
+            "minecraft:entity_type": "#traits:shulker_target"
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "hurt"
+    ]
+  ],
+  "rewards": {
+    "function": "traits:cow/hurt"
+  }
+}

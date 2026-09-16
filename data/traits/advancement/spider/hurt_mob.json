@@ -1,0 +1,27 @@
+{
+  "criteria": {
+    "hurt_mob_with_hand": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "damage": {
+          "source_entity": {
+            "minecraft:slots": {
+              "weapon.mainhand": {
+                "count": 0
+              }
+            },
+            "minecraft:team": "spider"
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "hurt_mob_with_hand"
+    ]
+  ],
+  "rewards": {
+    "function": "traits:spider/hurt_reward"
+  }
+}

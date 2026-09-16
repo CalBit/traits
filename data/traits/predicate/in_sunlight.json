@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:all_of",
+  "terms": [
+    {
+      "type": "minecraft:time_check",
+      "clock": "minecraft:overworld",
+      "value": {
+        "min": 27,
+        "max": 12000
+      },
+      "period": 24000
+    },
+    {
+      "type": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "minecraft:equipment": {
+          "head": {
+            "count": 0
+          }
+        },
+        "minecraft:location": {
+          "light": {
+            "light": 15
+          },
+          "can_see_sky": true
+        }
+      }
+    }
+  ]
+}

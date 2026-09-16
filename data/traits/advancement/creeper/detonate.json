@@ -1,0 +1,25 @@
+{
+  "criteria": {
+    "use_ability": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:gunpowder",
+          "components": {
+            "minecraft:custom_data": {
+              "ability": true
+            }
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "use_ability"
+    ]
+  ],
+  "rewards": {
+    "function": "traits:creeper/explode"
+  }
+}

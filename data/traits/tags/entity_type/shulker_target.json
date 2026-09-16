@@ -1,0 +1,7 @@
+{
+  "values": [
+    "minecraft:player",
+    "#traits:mob",
+    "#traits:boss"
+  ]
+}

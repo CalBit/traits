@@ -1,0 +1,27 @@
+{
+  "criteria": {
+    "damaged": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "type": {
+            "tags": [
+              {
+                "id": "minecraft:ender_pearl",
+                "expected": true
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "damaged"
+    ]
+  ],
+  "rewards": {
+    "function": "traits:enderman/damaged_by_pearl"
+  }
+}

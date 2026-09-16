@@ -1,0 +1,1 @@
+$execute if predicate traits:vibration_frequency as @e[type=#traits:shulker_target,distance=1..30,sort=nearest,limit=10] at @s run particle minecraft:vibration{destination:{type:block,pos:$(Pos)},arrival_in_ticks:30}

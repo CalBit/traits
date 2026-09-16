@@ -1,0 +1,67 @@
+{
+  "type": "minecraft:any_of",
+  "terms": [
+    {
+      "type": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "minecraft:equipment": {
+          "offhand": {
+            "components": {
+              "minecraft:custom_data": {
+                "ability": true
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "type": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "minecraft:equipment": {
+          "chest": {
+            "components": {
+              "minecraft:custom_data": {
+                "ability": true
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "type": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "minecraft:equipment": {
+          "offhand": {
+            "components": {
+              "minecraft:custom_data": {
+                "ability": true,
+                "projectile": "blaze"
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "type": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "minecraft:equipment": {
+          "offhand": {
+            "components": {
+              "minecraft:custom_data": {
+                "ability": true,
+                "projectile": "shulker"
+              }
+            }
+          }
+        }
+      }
+    }
+  ]
+}

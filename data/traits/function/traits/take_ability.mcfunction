@@ -1,0 +1,1 @@
+clear @s *[minecraft:custom_data={ability:true}|minecraft:custom_data={ability:true,projectile:blaze}|minecraft:custom_data={ability:true,projectile:enderman}|minecraft:custom_data={ability:true,projectile:shulker}]

@@ -1,0 +1,18 @@
+{
+  "criteria": {
+    "hurt": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {}
+      }
+    }
+  },
+  "requirements": [
+    [
+      "hurt"
+    ]
+  ],
+  "rewards": {
+    "function": "traits:shulker/hurt"
+  }
+}
