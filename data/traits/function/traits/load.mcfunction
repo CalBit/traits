@@ -11,6 +11,9 @@ team modify cow prefix [{'text':'[','color':'gray'},{'text':'Cow','color':'#5022
 team add creeper Creeper
 team modify creeper prefix [{'text':'[','color':'gray'},{'text':'Creeper','color':'green'},{'text':'] ','color':'gray'}]
 
+team add drowned Drowned
+team modify drowned prefix [{'text':'[','color':'gray'},{'text':'Drowned','color':'dark_aqua'},{'text':'] ','color':'gray'}]
+
 team add enderman Enderman
 team modify enderman prefix [{'text':'[','color':'gray'},{'text':'Enderman','color':'dark_purple'},{'text':'] ','color':'gray'}]
 

@@ -29,29 +29,34 @@ execute as @a[scores={traits=3}] at @s run function traits:creeper/join
 execute as @e[type=creeper] run team join creeper
 execute as @a[team=creeper] at @s run function traits:creeper/tick
 
+# Drowned
+execute as @a[scores={traits=4}] at @s run function traits:drowned/join
+execute as @e[type=#traits:drowned] run team join drowned
+execute as @a[team=drowned] at @s run function traits:drowned/tick
+
 # Enderman
-execute as @a[scores={traits=4}] at @s run function traits:enderman/join
+execute as @a[scores={traits=5}] at @s run function traits:enderman/join
 execute as @e[type=enderman] run team join enderman
 execute as @a[team=enderman] at @s run function traits:enderman/tick
 # Kill all endermites
 tp @e[type=minecraft:endermite] ~ -500 ~
 
 # Human
-execute as @a[scores={traits=5}] at @s run function traits:human/join
+execute as @a[scores={traits=6}] at @s run function traits:human/join
 execute as @e[type=#traits:human] run team join human
 
 # Iron Golem
-execute as @a[scores={traits=6}] at @s run function traits:iron_golem/join
+execute as @a[scores={traits=7}] at @s run function traits:iron_golem/join
 execute as @e[type=iron_golem] run team join iron_golem
 execute as @a[team=iron_golem] at @s run function traits:iron_golem/tick
 
 # Phantom
-execute as @a[scores={traits=7}] at @s run function traits:phantom/join
+execute as @a[scores={traits=8}] at @s run function traits:phantom/join
 execute as @e[type=phantom] run team join phantom
 execute as @a[team=phantom] at @s run function traits:phantom/tick
 
 # Shulker
-execute as @a[scores={traits=8}] at @s run function traits:shulker/join
+execute as @a[scores={traits=9}] at @s run function traits:shulker/join
 execute as @e[type=shulker] run team join shulker
 execute as @a[team=shulker] at @s run function traits:shulker/tick
 # Replace fake snowball with real shulker bullet
@@ -62,21 +67,21 @@ execute as @e[type=minecraft:snowball,nbt={Item:{components:{'minecraft:custom_d
 execute as @e[type=minecraft:snowball,nbt={Item:{components:{'minecraft:custom_data':{projectile:shulker}}}}] at @s run kill @s
 
 # Skeleton
-execute as @a[scores={traits=9}] at @s run function traits:skeleton/join
+execute as @a[scores={traits=10}] at @s run function traits:skeleton/join
 execute as @e[type=#traits:skeleton] run team join skeleton
 execute as @a[team=skeleton] at @s run function traits:skeleton/tick
 
 # Spider
-execute as @a[scores={traits=10}] at @s run function traits:spider/join
+execute as @a[scores={traits=11}] at @s run function traits:spider/join
 execute as @e[type=#traits:spider] run team join spider
 execute as @a[team=spider] at @s run function traits:spider/tick
 
 # Snow Golem
-execute as @a[scores={traits=11}] at @s run function traits:snow_golem/join
+execute as @a[scores={traits=12}] at @s run function traits:snow_golem/join
 execute as @e[type=snow_golem] run team join snow_golem
 execute as @a[team=snow_golem] at @s run function traits:snow_golem/tick
 
 # Zombie
-execute as @a[scores={traits=12}] at @s run function traits:zombie/join
+execute as @a[scores={traits=13}] at @s run function traits:zombie/join
 execute as @e[type=#traits:zombie] run team join zombie
 execute as @a[team=zombie] at @s run function traits:zombie/tick
