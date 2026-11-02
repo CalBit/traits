@@ -7,6 +7,7 @@ A datapack inspired by the [Origins](https://modrinth.com/mod/origins) mod.
   - [Blaze](#blaze)
   - [Cow](#cow)
   - [Creeper](#creeper)
+  - [Drowned](#drowned)
   - [Enderman](#enderman)
   - [Human](#human)
   - [Iron Golem](#iron-golem)
@@ -60,6 +61,19 @@ is active.
 
 #### Drawbacks
 - You die when exploding
+
+### Drowned
+#### Abilities
+- Infinite tridents
+
+#### Benefits
+- Water breathing
+- Night vision in water
+- Immune to poison
+
+#### Drawbacks
+- Immune to regeneration
+- Burns in daylight
 
 ### Enderman
 #### Abilities
