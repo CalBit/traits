@@ -3,6 +3,7 @@ A datapack inspired by the [Origins](https://modrinth.com/mod/origins) mod.
 
 ## Index
 - [Short Description](#short-description)
+- [Installation Instructions](#installation-instructions)
 - [List Of Traits](#list-of-traits)
   - [Blaze](#blaze)
   - [Cow](#cow)
@@ -27,6 +28,24 @@ make that mob passive towards you.
 
 Also endermites are annoying, so they are completely disabled when this datapack
 is active.
+
+## Installation Instructions
+### Downloading
+Head over to the Releases page on the right, and download the newest version.
+Note that only the latest version of Minecraft is *usually* supported.
+
+### Installing
+Copy the Traits-\[VERSION\]-\[MINECRAFT_VERSION\].zip to your resourcepacks,
+**AND** datapacks folder.
+
+The resourcepacks folder can be found in `%APPDATA%\.minecraft` on Windows, or
+in `~/.minecraft` on Linux.
+
+The datapacks folder can be found in your world save folder (or you can click
+the Data Packs button when creating a new world, then drag the .zip file into
+that).
+
+Don't forget to enable the Resource Pack before playing!
 
 ## List Of Traits
 ### Blaze
