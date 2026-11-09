@@ -143,9 +143,12 @@ Don't forget to enable the Resource Pack before playing!
   - Infinite Ender Pearls *(Endermites will never spawn as noted above)*
 
   #### Benefits
-  - Gain regeneration after teleporting *(regeneration III for 3 seconds;
+  - Regenerate health after teleporting *(regeneration III for 3 seconds;
     exactly 5 hp, 2 1/2 hearts, are healed after every teleport; this means that
     you can gain health by teleporting with the right armor enchantments)*
+  - Step up blocks without jumping
+    *([Step Height](https://minecraft.wiki/w/Attribute#Step_Height) is set to
+    1)*
 
   #### Drawbacks
   - Damaged by water *((you will take 2 damage, 1 heart, for every second you
