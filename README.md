@@ -48,146 +48,295 @@ that).
 Don't forget to enable the Resource Pack before playing!
 
 ## List Of Traits
-### Blaze
-#### Abilities
-- Shoot Fireballs
+<details>
+  <summary>Blaze</summary>
 
-#### Benefits
-- Fire resistance
+  ### Blaze
+  #### Abilities
+  - Shoot Fireballs *(cooldown is 2 seconds)*
 
-#### Drawbacks
-- Damaged by water
-- Slightly less health
+  #### Benefits
+  - Fire resistance *(infinite)*
 
-### Cow
-#### Abilities
-- Place bucket in offhand to get milk
+  #### Drawbacks
+  - Damaged by water *((you will take 2 damage, 1 heart, for every second you
+    are in water; this includes rain; no damage is taken if you're in a boat)*
+  - Slightly less health *(exactly 16 hp; 8 hearts)*
 
-#### Benefits
-- Bread give you saturation
-- Gain speed when hit
-- More hand knockback
+  #### Passive Mobs
+  - [Blaze](https://minecraft.wiki/w/Blaze)
+</details>
 
-#### Drawbacks
-- Slightly less health
+<details>
+  <summary>Cow</summary>
 
-### Creeper
-#### Abilities
-- Explode
+  ### Cow
+  #### Abilities
+  - Place bucket in offhand to get milk *(an empty bucket is converted to a milk
+    bucket when in your off hand)*
 
-#### Benefits
-- Night vision
+  #### Benefits
+  - Bread give you saturation *(saturation I for 4 seconds)*
+  - Gain speed when hit *(gain speed I for 10 seconds when hurt by an entity)*
+  - More hand knockback
+    *([Attack Knockback](https://minecraft.wiki/w/Attribute#Attack_Knockback) is
+    set to 1 when your main hand is empty)*
 
-#### Drawbacks
-- You die when exploding
+  #### Drawbacks
+  - Slightly less health *(exactly 16 hp; 8 hearts)*
 
-### Drowned
-#### Abilities
-- Infinite tridents
+  #### Passive Mobs
+  - [Cow](https://minecraft.wiki/w/Cow)
+</details>
 
-#### Benefits
-- Water breathing
-- Night vision in water
-- Immune to poison
+<details>
+  <summary>Creeper</summary>
 
-#### Drawbacks
-- Immune to regeneration
-- Burns in daylight
+  ### Creeper
+  #### Abilities
+  - Explode *(after using your ability for 2 seconds a primed TNT block is set
+    off at your position)*
 
-### Enderman
-#### Abilities
-- Infinite Ender Pearls
+  #### Benefits
+  - Night vision *(infinite)*
 
-#### Benefits
-- Gain regeneration after teleporting
+  #### Drawbacks
+  - You die when exploding *(you will always die regardless of armor or
+    effects)*
 
-#### Drawbacks
-- Damaged by water
+  #### Passive Mobs
+  - [Creeper](https://minecraft.wiki/w/Creeper)
+</details>
 
-### Human
-#### Benefits
-- All recipies are unlocked
+<details>
+  <summary>Drowned</summary>
 
-### Iron Golem
-#### Benefits
-- Farther reach
-- Less knockback
-- More health
-- More hand damage
-- Hand knockback
+  ### Drowned
+  #### Abilities
+  - Infinite tridents *(cooldown is 2 seconds; the tridents cannot be picked
+    up)*
 
-#### Drawbacks
-- More gravity
-- Slower speed
-- Slower hand attack
+  #### Benefits
+  - Water breathing *(infinite)*
+  - Night vision in water *(only when in water, you will gain infinite night
+    vision)*
+  - Immune to poison *(anything that gives you poison will not give you poison
+    anymore)*
 
-### Phantom
-#### Abilities
-- Can glide
+  #### Drawbacks
+  - Immune to regeneration *(anything that gives you regeneration will not give
+    you regeneration anymore)*
+  - Burns in daylight *(you will take 2 damage, 1 heart, for every second you
+    are exposed to the sun)*
 
-#### Benefits
-- Night vision
-- Immune to poison
+  #### Passive Mobs
+  - [Drowned](https://minecraft.wiki/w/Drowned)
+  - [Zombie Nautilus](https://minecraft.wiki/w/Zombie_Nautilus)
+</details>
 
-#### Drawbacks
-- Immune to regeneration
-- Burns in daylight
+<details>
+  <summary>Enderman</summary>
 
-### Shulker
-#### Abilities
-- Shoot bullets
+  ### Enderman
+  #### Abilities
+  - Infinite Ender Pearls *(Endermites will never spawn as noted above)*
 
-#### Benefits
-- Fire resistance
-- Immune to levitation
+  #### Benefits
+  - Gain regeneration after teleporting *(regeneration III for 3 seconds;
+    exactly 5 hp, 2 1/2 hearts, are healed after every teleport; this means that
+    you can gain health by teleporting with the right armor enchantments)*
 
-#### Drawbacks
-- Damaged by water
-- 25% chance to randomly teleport when damaged
+  #### Drawbacks
+  - Damaged by water *((you will take 2 damage, 1 heart, for every second you
+    are in water; this includes rain; no damage is taken if you're in a boat)*
 
-### Skeleton
-#### Abilities
-- Infinite Skeleton Arrows
+  #### Enderman
+  - [Enderman](https://minecraft.wiki/w/Enderman)
+</details>
 
-#### Benefits
-- Immune to poison
-- Receive a bow when adopting traits
+<details>
+  <summary>Human</summary>
 
-#### Drawbacks
-- Immune to regeneration
-- Burns in daylight
+  ### Human
+  #### Benefits
+  - All recipies are unlocked *(all recipies are taken if you leave this team)*
 
-### Spider
-#### Abilities
-- Hold jump to climb walls
-- Poison any mob you touch
+  #### Passive Mobs
+  - [Villager](https://minecraft.wiki/w/Villager)
+</details>
 
-#### Benefits
-- Immune to poison
+<details>
+  <summary>Iron Golem</summary>
 
-#### Drawbacks
-- Slightly less health
+  ### Iron Golem
+  #### Benefits
+  - Farther reach
+    *([Block Interaction Range](https://minecraft.wiki/w/Attribute#Block_Interaction_Range)
+    is set to 5.5)*
+  - Less knockback
+    *([Knockback Resistance](https://minecraft.wiki/w/Attribute#Knockback_Resistance)
+    is set to 0.75)*
+  - More health *(exactly 30 hp; 15 hearts)*
+  - More hand damage
+    *([Attack Damage](https://minecraft.wiki/w/Attribute#Attack_Damage) is set
+    to 10 when your main hand is empty)*
+  - Hand knockback
+    *([Attack Knockback](https://minecraft.wiki/w/Attribute#Attack_Knockback) is
+    set to 1 when your main hand is empty)*
 
-### Snow Golem
-#### Abilities
-- Throw Snowballs
+  #### Drawbacks
+  - More gravity *([Gravity](https://minecraft.wiki/w/Attribute#Gravity) is set
+    to 0.09)*
+  - Slower speed
+    *([Movement Speed](https://minecraft.wiki/w/Attribute#Movement_Speed) is
+    set to 0.075)*
+  - Slower hand attack
+    *([Attack Speed](https://minecraft.wiki/w/Attribute#Attack_Speed) is set to
+    2 when your main hand is empty)*
 
-#### Benefits
-- Immune to fall damage
-- Receive a carved pumpkin when adopting traits
+  #### Passive Mobs
+  - [Iron Golem](https://minecraft.wiki/w/Iron_Golem)
+</details>
 
-#### Drawbacks
-- Spreads snow
-- Damaged by daylight, hot biomes, and water
+<details>
+  <summary>Phantom</summary>
 
-### Zombie
-#### Abilities
-- Zombify or poison any mob you touch
-- Summon more zombies
+  ### Phantom
+  #### Abilities
+  - Can glide (essentially a permanent Elytra, except you can't take it off)
 
-#### Benefits
-- Immune to poison
+  #### Benefits
+  - Night vision (infinite)
+  - Immune to poison
 
-#### Drawbacks
-- Immune to regeneration
-- Burns in daylight
+  #### Drawbacks
+  - Immune to regeneration
+  - Burns in daylight *(you will take 2 damage, 1 heart, for every second you
+    are exposed to the sun)*
+
+  #### Passive Mobs
+  - [Phantom](https://minecraft.wiki/w/Phantom)
+</details>
+
+<details>
+  <summary>Shulker</summary>
+
+  ### Shulker
+  #### Abilities
+  - Shoot bullets *(cooldown is 2 seconds; Shulker bullet will target the
+    nearest entity)*
+
+  #### Benefits
+  - Fire resistance *(infinite)*
+  - Immune to levitation
+
+  #### Drawbacks
+  - Damaged by water *(you will take 2 damage, 1 heart, for every second you
+    are in water; this includes rain; no damage is taken if you're in a boat)*
+  - Randomly teleport when damaged at low health *(specifically when at 5 hp; 2
+    1/2 hearts; random teleportation uses the
+    [spreadplayers](https://minecraft.wiki/w/Commands/spreadplayers) command;
+    this means that you will be teleported to a random solid block **above
+    ground**)*
+
+  #### Passive Mobs
+  - [Shulker](https://minecraft.wiki/w/Shulker)
+</details>
+
+<details>
+  <summary>Skeleton</summary>
+
+  ### Skeleton
+  #### Abilities
+  - Infinite Skeleton Arrows *(the arrows cannot be picked up)*
+
+  #### Benefits
+  - Immune to poison
+  - Receive a bow when adopting traits
+
+  #### Drawbacks
+  - Immune to regeneration
+  - Burns in daylight *(you will take 2 damage, 1 heart, for every second you
+    are exposed to the sun)*
+
+  #### Passive Mobs
+  - [Parched](https://minecraft.wiki/w/Parched)
+  - [Skeleton Horse](https://minecraft.wiki/w/Skeleton_Horse)
+  - [Skeleton](https://minecraft.wiki/w/Skeleton)
+  - [Stray](https://minecraft.wiki/w/Stray)
+  - [Wither Skeleton](https://minecraft.wiki/w/Wither_Skeleton)
+</details>
+
+<details>
+  <summary>Spider</summary>
+
+  ### Spider
+  #### Abilities
+  - Hold jump to climb walls *(internally you are given levitation in order to
+    "climb")*
+  - Poison any mob you touch *(apply poison I for 10 seconds to any mob you hit
+    when your main hand is empty)*
+
+  #### Benefits
+  - Immune to poison
+
+  #### Drawbacks
+  - Slightly less health *(exactly 16 hp; 8 hearts)*
+
+  #### Passive Mobs
+  - [Cave Spider](https://minecraft.wiki/w/Cave_Spider)
+  - [Spider](https://minecraft.wiki/w/Spider)
+</details>
+
+<details>
+  <summary>Snow Golem</summary>
+
+  ### Snow Golem
+  #### Abilities
+  - Throw Snowballs *(infinite snowballs)*
+
+  #### Benefits
+  - Immune to fall damage
+    *([Fall Damage Multiplier](https://minecraft.wiki/w/Attribute#Fall_Damage_Multiplier)
+    is set to 0)*
+  - Receive a carved pumpkin when adopting traits *(on your head or in your
+    inventory if there's already something on your head)*
+
+  #### Drawbacks
+  - Spreads snow *(snow is placed below your feet on any solid block)*
+  - Damaged by daylight, hot biomes, and water *(you will take 2 damage, 1
+    heart, for every second you are exposed to the sun, biomes with a
+    temperature above sdfsdfsf, or water)*
+
+    #### Passive Mobs
+    - [Snow Golem](https://minecraft.wiki/w/Snow_Golem)
+</details>
+
+<details>
+  <summary>Zombie</summary>
+
+  ### Zombie
+  #### Abilities
+  - Zombify or poison any mob you touch *(convert any mob you hit when your main
+    hand is empty to it's zombie variant, or if it doesn't have one, apply
+    poison I for 10 seconds)*
+  - Summon more zombies *(exactly 3 zombies in a trianglular shape; each zombie
+    has a chance to be a baby)*
+
+  #### Benefits
+  - Immune to poison
+
+  #### Drawbacks
+  - Immune to regeneration
+  - Burns in daylight *(you will take 2 damage, 1 heart, for every second you
+    are exposed to the sun)*
+
+  #### Passive Mobs
+  - [Camel Husk](https://minecraft.wiki/w/Camel_Husk)
+  - [Husk](https://minecraft.wiki/w/Husk)
+  - [Zoglin](https://minecraft.wiki/w/Zoglin)
+  - [Zombie Horse](https://minecraft.wiki/w/Zombie_Horse)
+  - [Zombie Villager](https://minecraft.wiki/w/Zombie_Villager)
+  - [Zombie](https://minecraft.wiki/w/Zombie)
+  - [Zombified Piglin](https://minecraft.wiki/w/Zombified_Piglin)
+</details>
