@@ -18,6 +18,7 @@ A datapack inspired by the [Origins](https://modrinth.com/mod/origins) mod.
   - [Spider](#spider)
   - [Snow Golem](#snow-golem)
   - [Zombie](#zombie)
+- [Contributors](#contributors)
 
 ## Short Description
 Traits is a datapack for Minecraft that adds a handful of different mob traits
@@ -340,3 +341,10 @@ Don't forget to enable the Resource Pack before playing!
   - [Zombie](https://minecraft.wiki/w/Zombie)
   - [Zombified Piglin](https://minecraft.wiki/w/Zombified_Piglin)
 </details>
+
+## Contributors
+I would like to sincerely thank the following people for their contributions to
+this project!
+
+### Translation
+- StormVilzo - Mexican Spanish translation
