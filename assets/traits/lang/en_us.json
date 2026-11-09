@@ -51,7 +51,7 @@
   "traits.book.shulker.benefit.1": "Fire resistance",
   "traits.book.shulker.benefit.2": "Immune to levitation",
   "traits.book.shulker.drawback.1": "Damaged by water",
-  "traits.book.shulker.drawback.2": "25% chance to randomly teleport when damaged",
+  "traits.book.shulker.drawback.2": "Randomly teleport when damaged at low health",
   "traits.book.skeleton.title": "Skeleton",
   "traits.book.skeleton.ability.1": "Infinite Skeleton Arrows",
   "traits.book.skeleton.benefit.1": "Immune to poison",

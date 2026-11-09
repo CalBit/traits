@@ -1,4 +1,5 @@
-# Create scoreboard
+# Create scoreboards
+scoreboard objectives add health health
 scoreboard objectives add traits trigger
 
 # Create teams

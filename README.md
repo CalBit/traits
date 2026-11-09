@@ -234,8 +234,8 @@ Don't forget to enable the Resource Pack before playing!
   #### Drawbacks
   - Damaged by water *(you will take 2 damage, 1 heart, for every second you
     are in water; this includes rain; no damage is taken if you're in a boat)*
-  - Randomly teleport when damaged at low health *(specifically when at 5 hp; 2
-    1/2 hearts; random teleportation uses the
+  - Randomly teleport when damaged at low health *(specifically when at 8 hp;
+    4 hearts; or below; random teleportation uses the
     [spreadplayers](https://minecraft.wiki/w/Commands/spreadplayers) command;
     this means that you will be teleported to a random solid block **above
     ground**)*
